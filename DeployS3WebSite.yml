@@ -1,0 +1,14 @@
+---
+- name: AWS S3 Website
+  hosts: localhost
+  gather_facts: false
+
+  collections: 
+    - zaskan.aws
+
+  tasks:
+  - name: Include role
+    ansible.builtin.include_role:
+      name: zaskan.aws.aws_s3_website
+
+
