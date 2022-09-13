@@ -3,5 +3,6 @@ collections:
 - amazon.aws
 - community.aws
 - community.general
+- ansible.controller
 - name: https://github.com/zaskan/ansible_collections.git
   type: git
